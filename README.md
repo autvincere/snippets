@@ -1,8 +1,9 @@
 # snippets
 snippets for differents cms and frameworks
 
-# WORDPRESS
+## WORDPRESS
 
+```
 //CUSTOM POSTYPE QUERY
 // EJ: SLIDER
 
@@ -45,10 +46,11 @@ snippets for differents cms and frameworks
     <!-- Cierre slider custom postype -->
 </section>
 // CIERRE EJ: SLIDER
+```
 
+## CUSTOM POSTYPE QUERY PARA CATEGORIA ESPECIFICA
 
-<!-- CUSTOM POSTYPE QUERY PARA CATEGORIA ESPECIFICA -->
-
+```
 <?php
 	//OBTENER json de custom postype
 
@@ -86,5 +88,6 @@ snippets for differents cms and frameworks
            	endif;
           ?>
 	  <!-- cierre obtener json de custom postype -->
+```
     
-<!-- CIERRE CUSTOM POSTYPE QUERY PARA CATEGORIA ESPECIFICA -->
+## CIERRE CUSTOM POSTYPE QUERY PARA CATEGORIA ESPECIFICA
