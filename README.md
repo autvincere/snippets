@@ -3,10 +3,6 @@ snippets for differents cms and frameworks
 
 # WORDPRESS
 
-//*************************************************************
-WORDPRESS
-//*************************************************************
-
 //CUSTOM POSTYPE QUERY
 // EJ: SLIDER
 
