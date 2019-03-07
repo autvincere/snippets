@@ -1,7 +1,7 @@
 # snippets
 snippets for differents cms and frameworks
 
-#WORDPRESS
+# WORDPRESS
 
 //*************************************************************
 WORDPRESS
@@ -59,8 +59,7 @@ WORDPRESS
 		$args = array(
 			'post_type' => 'json',
 			'posts_per_page'  => 1,
-
-      // ACA SE LLAMA A LA CATEGORIA POR EL SLUG
+			
 			'tax_query' => array(
 				array(
 					'taxonomy' => 'categorias',
