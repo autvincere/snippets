@@ -3,6 +3,19 @@ snippets for differents cms and frameworks
 
 ## WORDPRESS
 
+
+### CAmbio de cotejamiento en base de datos
+Query para insertar en base de datos
+```
+// query **************************************************
+//*************************************************************** */
+
+ALTER DATABASE `fujicorp_fujicorp` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+
+// CIERRE QUERY **************************************************
+//*************************************************************** */
+```
+
 ### Registro de Custom POST-TYPE
 ```
 // ITEM CARGA JSON **************************************************
