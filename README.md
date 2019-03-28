@@ -3,8 +3,7 @@ snippets for differents cms and frameworks
 
 ## WORDPRESS
 
-
-### CAmbio de cotejamiento en base de datos
+### Cambio de cotejamiento en base de datos
 Query para insertar en base de datos
 ```
 // query **************************************************
@@ -16,6 +15,24 @@ ALTER DATABASE `fujicorp_fujicorp` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4
 //*************************************************************** */
 ```
 
+### Consultar el charset y collation de una base de datos
+Query para insertar en base de datos
+```
+// query **************************************************
+//*************************************************************** */
+
+SELECT
+ schema_name AS 'database', 
+ default_character_set_name AS 'charset',
+ default_collation_name AS 'collation'
+FROM
+ information_schema.SCHEMATA
+WHERE
+ schema_name = "XXXXX";
+
+// CIERRE QUERY **************************************************
+//*************************************************************** */
+```
 ### Registro de Custom POST-TYPE
 ```
 // ITEM CARGA JSON **************************************************
